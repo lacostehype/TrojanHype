@@ -8,6 +8,12 @@
 Método de instalação !
 
 pkg update -y
+
+
 pkg upgrade -y
+
+
 pkg install git -y
+
+
 pkg install python -y
