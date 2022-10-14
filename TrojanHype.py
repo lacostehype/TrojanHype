@@ -1,4 +1,6 @@
-## Tabela de cores ANSI (Python) ##
+# ESSE SCRIPT CLARAMENTE É UMA TROLL QUE EU CRIEI PARA BRINCA COM TRAVAZAPS
+# E LAMMERS ENTÃO NAO TIRE CONCLUSÕES PRECIPITADAS 
+# Tabela de cores ANSI (Python) ##
 global C,R,O,W,L,E,Y,a,l,e,i,s,t,ë,r,XV,XXI
 
 # fonte #
@@ -30,7 +32,7 @@ import time
 
 os.system ('clear')
 os.system ('figlet -f slant TROJAN HYPE') 
-print (f'{XV} Script by{XXI}:{O}ꪶ͢𝐋𝐀͢𝐂𝐎𝐒͢𝐓𝐄 𝐇𝐘͢𝐏𝐄{XXI}')
+print (f'{XV} Script by{XXI}:{O}Lacoste-AbSec{XXI}')
 time.sleep(0.6)
 # variavel para contagem
 a = 1
