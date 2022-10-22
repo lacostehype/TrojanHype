@@ -42,8 +42,8 @@ a = 1
 print(" ".center(8), f'{XV} PROGRAMA DE RAJAR TROJAN{XXI}😈🐊')
 print (f' {L} Menu !!! {XXI}\n{Y}Escolha a quantidade de trojan\nque deseja enviar{XXI}')
 menu = int(input(f'{W}:'))
-
-for i in range(menu):
+menu1 = 1
+for i in range(menu1):
     print (f' {XXI}{l} SOMENTE O NÚMERO SEM ESPAÇO OU -\nEXEMPLO :+5511959228439{XXI}')
     n = int(input(f'{XXI}{l}{W} Digite o número do alvo :{O}\n'))
     print (f'{XXI}{R}Localizando alvo!!!{XXI}')
