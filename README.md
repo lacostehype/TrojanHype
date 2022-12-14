@@ -18,6 +18,8 @@ pkg install git -y
 
 pkg install python -y
 
+pip install pyfiglet
+
 git clone https://github.com/lacostehype/TrojanHype
 
 cd TrojanHype
